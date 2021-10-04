@@ -1,0 +1,32 @@
+{
+  "name": "rnipp-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "node src/start.js",
+    "build": "babel src --out-dir dist --ignore src/start.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4"
+  }
+}
